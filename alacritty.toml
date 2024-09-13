@@ -13,19 +13,19 @@ style = "Block"
 size = 12.0
 
 [font.bold]
-family = "JetBrains Mono NFM"
+family = "MesloLGS Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono NFM"
+family = "MesloLGS Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono NFM"
+family = "MesloLGS Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrains Mono NFM"
+family = "MesloLGS Nerd Font Mono"
 style = "Regular"
 
 
@@ -34,20 +34,15 @@ action = "SpawnNewInstance"
 key = "Return"
 mods = "Super|Shift"
 
+
 [shell]
 args = ["--login"]
 program = "/bin/zsh"
 
 [window]
-opacity = 1 
-# opacity = 0.9 
+opacity = 1
 dynamic_title = false
 
 [window.padding]
 x = 10
 y = 10
-
-# [colors.primary]
-# background = "0x181923" 
-# #  background = "0x191724" 
-# #  background = "0x000000" 
